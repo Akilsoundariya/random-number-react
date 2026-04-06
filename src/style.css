@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html, body, #root{
+    height: 100%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #f3f4f6;
+}
+
+/* CENTER */
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* CARD */
+#rand-container{
+    background: #f9fafb;
+    padding: 30px;
+    width: 90%;
+    max-width: 350px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+
+/* TITLE */
+#heading{
+    font-size: 20px;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 20px;
+}
+
+/* NUMBER BOX */
+#value-box{
+    border: 2px dashed #d1d5db;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+/* VALUE */
+#value{
+    font-size: 50px;
+    font-weight: bold;
+    color: #111827;
+}
+
+/* BUTTONS */
+button{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* GENERATE */
+#button{
+    background:goldenrod;
+    color: white;
+}
+
+/* RESET */
+#resetbtn{
+    background:olivedrab;
+    color: #111827;
+}
